@@ -1,2 +1,0 @@
-react-redux的常用变量名映射
-与reducer一一对应

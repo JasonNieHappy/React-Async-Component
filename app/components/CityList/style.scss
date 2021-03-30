@@ -6,14 +6,14 @@
         font-size: 18px;
     }
     li {
-        float: left;
+        display: inline-block;
         width: 33.3%;
         margin-top: 20px;
         text-align: center;
         span {
             display: inline-block;
             width: 90%;
-            font: 14px;
+            font-size: 14px;
             line-height: 2;
             color: #fff;
             background-color: #ff6fa2;

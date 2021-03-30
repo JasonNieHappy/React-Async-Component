@@ -63,10 +63,6 @@ class RouteMap extends React.Component {
                 </App>
             </Router>
         );
-        // 说明
-        // empty Route
-        // https://github.com/ReactTraining/react-router/issues/1982  解决人：PFight
-        // 解决react-router v4改变查询参数并不会刷新或者说重载组件的问题 
     }
 }
 

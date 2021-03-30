@@ -3,7 +3,7 @@ module.exports = {
     data: [
         {
             title: '小林家的龙女仆 康娜 马克杯',
-            img: 'http://ou41niivx.bkt.clouddn.com/search-1.png?imageView2/2/w/200',
+            img: 'https://www.hetungugu.com/images/202012/goods_img/1732_G_1609404152515.jpg',
             price: '38.00',
             created: '2017-2-22',
             link: 'https://bcy.net/zhipin/detail/5574',
@@ -11,7 +11,7 @@ module.exports = {
         },
         {
             title: '作品集锦2016.4-2017.6',
-            img: 'http://ou41niivx.bkt.clouddn.com/search-2.png?imageView2/2/w/200',
+            img: 'https://www.hetungugu.com/images/202012/goods_img/1732_G_1609404152515.jpg',
             price: '48.00',
             created: '2017-2-20',
             link: 'https://bcy.net/zhipin/detail/7951',
@@ -19,7 +19,7 @@ module.exports = {
         },
         {
             title: '扑克少女隔热杯',
-            img: 'http://ou41niivx.bkt.clouddn.com/search-3.png?imageView2/2/w/200',
+            img: 'https://www.hetungugu.com/images/202012/goods_img/1730_G_1609322922144.jpg',
             price: '48.00',
             created: '2017-1-22',
             link: 'https://bcy.net/zhipin/detail/7495',
@@ -27,7 +27,7 @@ module.exports = {
         },
         {
             title: '史迪仔鼠标垫',
-            img: 'http://ou41niivx.bkt.clouddn.com/search-4.png?imageView2/2/w/200',
+            img: 'https://www.hetungugu.com/images/202012/goods_img/1726_G_1609322220327.jpg',
             price: '28.00',
             created: '2017-1-18',
             link: 'https://bcy.net/zhipin/detail/7753',
@@ -35,7 +35,7 @@ module.exports = {
         },
         {
             title: '王者荣耀法师联盟A徽章套装（4个/套）',
-            img: 'http://ou41niivx.bkt.clouddn.com/search-5.png?imageView2/2/w/200',
+            img: 'https://www.hetungugu.com/images/202012/goods_img/1696_G_1608713414338.jpg',
             price: '28.00',
             created: '2017-1-17',
             link: 'https://bcy.net/zhipin/detail/8988',

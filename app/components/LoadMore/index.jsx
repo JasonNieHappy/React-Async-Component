@@ -16,23 +16,23 @@ class LoadMore extends React.PureComponent {
     /**
      * scroll事件的处理
      * @param {*number} timeoutID 计时器的ID，为了可以clear
-     * @param {*object} context 上下文
+     * @param {*object} thisComponent 上下文
      */
-    _scrollHandler(timeoutID, context) {
+    _scrollHandler(timeoutID, thisComponent) {
         return handlerID = e => {
             // 如果处于正在获取数据的状态，则不调用获取数据
-            if (context.props.isLoading) {
+            if (thisComponent.props.isLoading) {
                 return;
             }
             // 如果hasMore为false了，说明没数据了，清除scroll的事件
-            if (!context.props.hasMore) {
+            if (!thisComponent.props.hasMore) {
                 window.removeEventListener('scroll', handlerID);
             }
             if (timeoutID) {
                 clearTimeout(timeoutID)
             }
             // 节流
-            timeoutID = setTimeout(this._callBack.bind(context), 50);
+            timeoutID = setTimeout(this._callBack.bind(thisComponent), 50);
         }
     }
 
@@ -43,7 +43,10 @@ class LoadMore extends React.PureComponent {
         let loadMoreNode = this.refs.loadMoreNode;
         let top = loadMoreNode.getBoundingClientRect().top,
             screenHeight = window.screen.height;
+        console.log('top: ', top);
+        console.log('screenHeight: ',screenHeight);
         if (top && top < screenHeight) {
+            console.log(`get the data, and the top is ${top}, screenHeight is ${screenHeight}`);
             this.props.onLoadMore();
         }
     }

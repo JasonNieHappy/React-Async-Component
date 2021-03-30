@@ -95,7 +95,7 @@ module.exports = {
         // 删除build文件夹
         new CleanWebpackPlugin('./build'),
         // 加署名
-        new webpack.BannerPlugin("Copyright by luoziwo.cn"),
+        new webpack.BannerPlugin("Copyright by Jason nie"),
         // html 模板插件
         new HtmlWebpackPlugin({
             template: __dirname + '/app/index.html',

@@ -1,2 +1,0 @@
-react-redux的actions
-和reducer一一对应

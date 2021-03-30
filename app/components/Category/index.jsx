@@ -20,27 +20,15 @@ class Category extends React.PureComponent {
             <div class="home-category">
                 <ReactSwipe className="carousel" swipeOptions={settings}>
                     <div class="items">
-                        <img src="http://ou41niivx.bkt.clouddn.com/banner-1.png?imageView2/2/w/500" alt="banner1"/>
+                        <img src="https://www.hetungugu.com/data/afficheimg/20200619naqgwd.jpg" alt="banner1"/>
                     </div>
                     <div class="items">
-                        <img src="http://ou41niivx.bkt.clouddn.com/banner-2.png?imageView2/2/w/500" alt="banner2" />
-                    </div>
-                    <div class="items">
-                        <img src="http://ou41niivx.bkt.clouddn.com/banner-3.png?imageView2/2/w/500" alt="banner3"/>
-                    </div>
-                    <div class="items">
-                        <img src="http://ou41niivx.bkt.clouddn.com/banner-4.png?imageView2/2/w/500" alt="banner4"/>
-                    </div>
-                    <div class="items">
-                        <img src="http://ou41niivx.bkt.clouddn.com/banner-5.png?imageView2/2/w/500" alt="banner5"/>
+                        <img src="https://www.hetungugu.com/data/afficheimg/20200205nmvksw.jpg" alt="banner2" />
                     </div>
                 </ReactSwipe>
                 <div className="index">
                     <li class={this.state.index === 0 ? 'active' : ''}></li>
                     <li class={this.state.index === 1 ? 'active' : ''}></li>
-                    <li class={this.state.index === 2 ? 'active' : ''}></li>
-                    <li class={this.state.index === 3 ? 'active' : ''}></li>
-                    <li class={this.state.index === 4 ? 'active' : ''}></li>
                 </div>
             </div>
         );

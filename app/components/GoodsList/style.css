@@ -1,0 +1,62 @@
+.goodsList {
+  background-color: #fff;
+}
+.goodsList ul {
+  padding: 10px 10px 0;
+}
+.goodsList ul li {
+  padding: 5px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.goodsList ul li:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.goodsList ul li a {
+  color: #fff;
+}
+.goodsList ul li .left {
+  margin-right: 10px;
+  float: left;
+  width: 120px;
+  line-height: 1;
+}
+.goodsList ul li .left img {
+  width: 100%;
+}
+.goodsList ul li .right .head {
+  height: 24px;
+}
+.goodsList ul li .right .head:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.goodsList ul li .right .head h4 {
+  max-width: 40%;
+  float: left;
+  font-size: 16px;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.goodsList ul li .right .head span {
+  float: right;
+  font-size: 12px;
+  line-height: 16px;
+}
+.goodsList ul li .right .desc {
+  font-size: 14px;
+  line-height: 1.4;
+}
+.goodsList ul li .right .price {
+  margin-top: 5px;
+  color: #ff6fa2;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */

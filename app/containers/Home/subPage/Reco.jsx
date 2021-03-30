@@ -42,7 +42,7 @@ class AD extends React.PureComponent {
         return (
             <div>
                 {this.state.recoData.length
-                    ? <HomeReco data={this.state.recoData} title="半次元制品周边推荐"/>
+                    ? <HomeReco data={this.state.recoData} title="周边推荐"/>
                     : <div>加载中...</div>
                 }
             </div>

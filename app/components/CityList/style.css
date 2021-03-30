@@ -1,0 +1,24 @@
+.cityList {
+  color: #333;
+  padding: 15px 15px 20px;
+  background-color: #fff;
+}
+.cityList h3 {
+  font-size: 18px;
+}
+.cityList li {
+  display: inline-block;
+  width: 33.3%;
+  margin-top: 20px;
+  text-align: center;
+}
+.cityList li span {
+  display: inline-block;
+  width: 90%;
+  font-size: 14px;
+  line-height: 2;
+  color: #fff;
+  background-color: #ff6fa2;
+}
+
+/*# sourceMappingURL=style.css.map */

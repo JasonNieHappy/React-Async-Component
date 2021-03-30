@@ -16,7 +16,7 @@ class SearchInput extends React.PureComponent {
     }
 
     // 输入回车后，submit
-    keyUpHandler(e) {
+    submitHandler(e) {
         e.preventDefault();
         this.props.onSubmit(this.state.value);
     }
@@ -32,7 +32,7 @@ class SearchInput extends React.PureComponent {
     render() {
         return (
             <div class="searchInput" onClick={this.clickHandler.bind(this)}>
-                <form action="#" onSubmit={this.keyUpHandler.bind(this)}>
+                <form action="#" onSubmit={this.submitHandler.bind(this)}>
                     <div class="search">
                         <i className="icon-search"></i>
                         <input type="search" placeholder="请输入关键字..." ref="input"
